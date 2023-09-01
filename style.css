@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: 'Poppins', sans-serif;
+  background: #efefef;
+}
+
+body:before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 140px auto 0;
+}
+
+h1,
+fieldset legend,
+h2,
+.button {
+  font-family: 'Staatliches', cursive;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  width: 417px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form {
+  margin-top: 47px;
+  border-radius: 20px 20px 0px 0px;
+  background: #fff;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 8px;
+  margin-bottom: 36px;
+}
+
+fieldset legend {
+  color: #535971;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.input-wrapper label {
+  margin-bottom: 8px;
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.input-wrapper label span {
+  color: #c1bccc;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 9px;
+}
+
+.input-wrapper label span:hover {
+  color: #817e87;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  height: 56px;
+  margin-bottom: 16px;
+  padding: 0 24px;
+
+  color: #727075;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+  margin-right: 22px;
+}
+
+.text-legend h2 {
+  color: #535971;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  height: 160px;
+
+  display: flex;
+  flex-direction: column; /*se torna o eixo principal*/
+
+  padding: 52px;
+  margin-bottom: 366px;
+
+  border-top: 1px solid #d6d6d6;
+}
+
+footer .button {
+  display: flex;
+  width: 608px;
+  height: 56px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #ff5374;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+footer .button:hover {
+  background: #e54a69;
+  cursor: pointer;
+}
+
+input:invalid {
+  outline: 1px solid #ff5374;
+}
