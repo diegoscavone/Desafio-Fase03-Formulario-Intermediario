@@ -9,7 +9,7 @@
 
 <p>💻 Projeto</p>
 <p>O projeto faz parte do Desafio de Formulários Intermediário e Avançado.</p>
-<p><a href="">Desafio Intermediário</a></p>
+<p><a href="https://diegoscavone.github.io/Desafio-Fase03-Formulario-Intermediario/" target="_blank">Desafio Intermediário</a></p>
 <p><a href="">Desafio Avançado</a></p>
 
 <p>📝 Licença</p>
